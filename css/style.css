@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+.hidden {
+    opacity: 0;
+}
+  
+.icone {
+    margin: 5px 15px;
+}
+
+.barraFechada {
+    width: 70px;
+}
+
+.barraAberta {
+    width: 180px;
+}
+
+.barraFechada, .barraAberta {
+    margin: 20px 20px;
+    height: 95vh;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.514);
+    transition: width 1.0s ease;
+    overflow: auto;
+}
+
+.itemBarra {
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.itemBarra:hover {
+    background-color: rgba(131, 129, 129, 0.514);
+}
+
+.textoBarra {
+    height: auto;
+    max-height: 1000px;
+    transition: max-height 0.2s ease;
+    transition: opacity 0.2s ease;
+    overflow: hidden;
+}
+
+.barraLateral {
+    padding: 30px 0;
+}
